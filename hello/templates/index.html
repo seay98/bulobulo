@@ -1,0 +1,19 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+<h2>
+    <canvas id="icon1" width="64" height="64"></canvas>
+    <span id="location">If your browser allows, I can tell you the weather.</span>
+    <span id="temp-degree">-</span>
+    <span id="temp-description">-</span>
+</h2>
+<time id="time">22:39:11 PM</time>
+<h1>
+    <span id="greeting"></span>
+    <span>Chengyuan & YL.</span>
+</h1>
+
+<script src="{% static 'js/main.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"></script>
+<script src="{% static 'js/weather.js' %}"></script>
